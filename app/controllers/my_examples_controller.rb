@@ -1,5 +1,5 @@
 class MyExamplesController < ApplicationController
-  def get_fortune
+  def fortune
     fortunes = ["You will have a good day", "You will have good health", "You will learn something new"]
     @fortune = fortunes.sample
   end
